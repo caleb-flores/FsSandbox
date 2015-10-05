@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "FsSandbox", "FsSandbox.fsproj", "{2D22BF14-A9DA-4E6E-A447-EB92F4BA4113}"
 EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "ProtobufTest", "ProtobufTest\ProtobufTest.fsproj", "{47E8B0E1-DBB6-48AF-A2F0-43544FB33A07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{2D22BF14-A9DA-4E6E-A447-EB92F4BA4113}.Debug|x86.Build.0 = Debug|x86
 		{2D22BF14-A9DA-4E6E-A447-EB92F4BA4113}.Release|x86.ActiveCfg = Release|x86
 		{2D22BF14-A9DA-4E6E-A447-EB92F4BA4113}.Release|x86.Build.0 = Release|x86
+		{47E8B0E1-DBB6-48AF-A2F0-43544FB33A07}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{47E8B0E1-DBB6-48AF-A2F0-43544FB33A07}.Debug|x86.Build.0 = Debug|Any CPU
+		{47E8B0E1-DBB6-48AF-A2F0-43544FB33A07}.Release|x86.ActiveCfg = Release|Any CPU
+		{47E8B0E1-DBB6-48AF-A2F0-43544FB33A07}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
