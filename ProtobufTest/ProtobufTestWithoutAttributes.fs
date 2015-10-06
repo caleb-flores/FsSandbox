@@ -20,7 +20,7 @@ type PersonV3  = {
 }
 
 [<TestFixture>]
-type ``Basic use of Protobuf`` () = 
+type ``Basic use of Protobuf without attributes`` () = 
 
     [<Test>]
     member __.``Basic Serialization and Deserialization``() =
