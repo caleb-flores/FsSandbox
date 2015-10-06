@@ -104,3 +104,11 @@ type ``Complex types serialization test``() =
         let messageCopy = message |> Serialization.serialize |> Serialization.deserialize<MessageDU>
         printfn "%A" messageCopy
         Assert.AreEqual(message,messageCopy)
+
+    [<Test>]
+    member __.``Serializing and deserializing tuples``() =
+        let message = (1,1)
+        Serialization.registerSerializableDu<MessageDU> ()
+        let messageCopy = message |> Serialization.serialize |> Serialization.deserialize<int*int>
+        printfn "%A" messageCopy
+        Assert.AreEqual(message,messageCopy)
