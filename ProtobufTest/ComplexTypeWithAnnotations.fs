@@ -111,6 +111,7 @@ type ``Complex types serialization test with attributes``() =
             body = "Body"
         }
         Serialization.registerSerializableDu<MessageDU> ()
+        printfn "%A" <| ProtoBuf.Serializer.GetProto<MessageDU>()
         let messageCopy = message |> Serialization.serialize |> Serialization.deserialize<MessageDU>
         printfn "%A" messageCopy
         Assert.AreEqual(message,messageCopy)
